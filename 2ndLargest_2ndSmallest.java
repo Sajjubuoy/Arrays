@@ -13,7 +13,7 @@ public class Main
 		    {
 		        smallest=arr[i];
 		    }
-		    else if(arr[i]>largest)
+		    if(arr[i]>largest)
 		    {
 		        largest=arr[i];
 		    }
@@ -27,7 +27,7 @@ public class Main
 		     second_smallest=arr[i];
 		     //System.out.print("Second Smallest: "+ second_smallest);
 		 }
-		 else if (arr[i]>second_largest && arr[i]!= largest)
+		 if (arr[i]>second_largest && arr[i]!= largest)
 		 {
 		     second_largest=arr[i];
 		     //System.out.println("Second Largest: "+ second_largest);
